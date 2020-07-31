@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="faaec73ca2784514b9c3a59af8b23447" Name="Diagram1">
+        <EntityTypeShape EntityType="PreOrderFoodModel.Customer" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PreOrderFoodModel.Item" Width="1.5" PointX="3.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PreOrderFoodModel.PaymentTypes" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PreOrderFoodModel.Order_Details" Width="1.5" PointX="5.625" PointY="4" />
+        <EntityTypeShape EntityType="PreOrderFoodModel.Orders" Width="1.5" PointX="3.375" PointY="4" />
+        <AssociationConnector Association="PreOrderFoodModel.FK_Order_Details_Orders" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
